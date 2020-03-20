@@ -116,8 +116,8 @@ for i in range(8):
                 pass
 
 # Make the image
-cord_x = 478 + 134*7
-cord_y = 140 + 134*7
+cord_x = 478 + 134*8
+cord_y = 140 + 134*8
 new_data = data[478:cord_x,140:cord_y,:]
 fig, ax = plt.subplots(ncols=1)
 for i in range(8):
@@ -141,4 +141,3 @@ for i in range(8):
 
 ax.imshow(new_data)
 plt.savefig('/Users/petermyers/Desktop/output.png')
-        
